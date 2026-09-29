@@ -7,35 +7,33 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-    <dialog>
-        <div>
-            
-        </div>
+    <dialog id="janela">
+        <div id="info"></div>   
     </dialog>
     <main id="esq">
         <header>
-            <h1>Login</h1>
+            <div id="title">
+                <p>Login</p>
+            </div>
         </header>
 
         <form>
+          
+            <img class="img" src="img/profile.png" alt="logo">
+            <input type="text" class="campo" name="nome" placeholder="Nome" required/>
 
-            <div id="campo1">                
-                <img class="img" src="img/profile.png" alt="logo">
-                <input type="text" id="nome" name="nome" placeholder="Nome" required/>
+            <img class="img" src="img/lock.png" alt="logo">
+            <input type="password" class="campo" name="senha" placeholder="Senha" minlength="4" required/>
+
+            <div id="botao">
+                <button>Entrar</button>
             </div>
-
-
-            <div id="campo2">
-                <img class="img" src="img/lock.png" alt="logo">
-                <input type="password" id="senha" name="senha" placeholder="Senha" minlength="4" required/>
-            </div> 
-
-
-        <button id="submit">Entrar</button>
 
         </form>
 
-        <a href="redef.html" target="_self">Redefinir Cadastro?</a>
+        <div id="link">
+            <a href="redef.html" target="_self">Redefinir Cadastro?</a>
+        </div>
     </main>
 
     <aside id="background">
@@ -45,6 +43,6 @@
         <img src="img/logo.png" alt="logo">
     </div>
 
-      
+    <script src="js/validlogin.js"></script>
 </body>
 </html>

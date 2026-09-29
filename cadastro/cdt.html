@@ -12,28 +12,28 @@
     </dialog>
     <main id="esq">
         <header>
-            <h1>Cadastro</h1>
-            <p>Essa etapa é necesária uma única vez,<br> a menos que você deseje redefinir sua senha e nome de perfil.</p>
+            <div id="title">
+                <p>Cadastro</p>
+            </div>
+            <div id="exp">
+                <p>Essa etapa é necesária uma única vez,<br> a menos que você deseje redefinir sua senha e nome de perfil.</p>
+            </div>
         </header>
 
         <form>
 
-            <label for="nome">Crie um nome de perfíl:</label>
-            <div id="campo1">
-                <img class="img" src="img/profile.png" alt="logo">
-                <input type="text" id="nome" name="nome" placeholder="Nome" required/>
-            </div>
-
-
+            <img class="img" src="img/profile.png" alt="logo">
+            <label for="nome">Crie um nome de perfíl:</label>   
+            <input type="text" class="campo" name="nome" placeholder="Nome" required/>
+            
+            <img class="img" src="img/lock.png" alt="logo">
             <label for="senha">Crie uma senha:</label>
-            <div id="campo2">
-                <img class="img" src="img/lock.png" alt="logo">
-                <input type="password" id="senha" name="senha" placeholder="Senha" minlength="4" required/>
-            </div> 
-
-
-        <button id="submit">Confirmar</button>
-
+            <input type="password" class="campo" name="senha" placeholder="Senha" minlength="4" required/>
+            
+            <div id="botao">
+                <button>Confirmar</button>
+            </div>
+            
         </form>
     </main>
 
@@ -43,6 +43,7 @@
     <div id="logo">
         <img src="img/logo.png" alt="logo">
     </div>
+
     <script src="js/validcdt.js"></script>
 </body>
 </html>
