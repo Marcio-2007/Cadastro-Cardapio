@@ -97,7 +97,7 @@ label{
     padding: 0;
 }
 
-.campo{
+#nm, #sh, #nm2, #sh2{
     font-size: 18px;
     background: #281E12;
     border: 1px solid #c59341;
@@ -109,7 +109,7 @@ label{
     width: 100%;
 }
 
-.campo:focus{
+#nm:focus, #sh:focus, #nm2:focus, #sh2:focus{
     background: #EEE4CF;
     color: #281E12;
  }
