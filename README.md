@@ -13,6 +13,7 @@ cadastro/
 ├── cdt.php
 ├── login.php
 └── redef.php
+└── perfil.json
 
 
 
