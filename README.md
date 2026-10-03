@@ -12,7 +12,7 @@ cadastro/
 │   └── profile.png
 ├── cdt.php
 ├── login.php
-└── redef.php
+├── redef.php
 └── perfil.json
 
 
