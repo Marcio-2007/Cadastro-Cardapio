@@ -10,13 +10,10 @@ cadastro/
 │   ├── lock.png
 │   ├── logo.png
 │   └── profile.png
-├── js/
-│   ├── validcdt.js
-│   ├── validlogin.js
-│   └── validredef.js
-├── cdt.html
-├── login.html
-└── redef.html
+├── cdt.php
+├── login.php
+└── redef.php
+
 
 
 
