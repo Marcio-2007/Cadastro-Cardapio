@@ -17,10 +17,11 @@ body {
 
 #esq {
     grid-column: 1;
-    padding: 0 80px 80px 80px;
+    padding: 0 80px 0 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+	align-items: center;
 }
 
 #background{
