@@ -10,10 +10,12 @@ cadastro/
 │   ├── lock.png
 │   ├── logo.png
 │   └── profile.png
+├── user
+│    └── perfil.json    //quando gerado
 ├── cdt.php
 ├── login.php
-├── redef.php
-└── perfil.json
+└── redef.php
+
 
 
 
