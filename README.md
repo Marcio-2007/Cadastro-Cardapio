@@ -12,6 +12,9 @@ cadastro/
 │   └── profile.png
 ├── user
 │    └── perfil.json    //quando gerado
+├── js/
+│   ├── script.js
+│   └── script2.js
 ├── cdt.php
 ├── login.php
 └── redef.php
