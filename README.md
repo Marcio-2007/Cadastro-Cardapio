@@ -9,9 +9,11 @@ cadastro/
 │   ├── bg.png
 │   ├── lock.png
 │   ├── logo.png
-│   └── profile.png
-├── user
-│    └── perfil.json    //quando gerado
+│   ├── profile.png
+│   ├── luz-de-fundo.png
+│   └── aberto.png
+├── user                        // inicialmente vazio
+│    └── perfil.json            // gerado ao finalizar o cadastro
 ├── js/
 │   ├── script.js
 │   └── script2.js
